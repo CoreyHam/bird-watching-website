@@ -7,7 +7,8 @@ html, body {
 
 html {
     font-size: 10px;
-    background-color: #a9a9a9;
+    background-image: linear-gradient(to top,#33322E, #4C4D44, #636B5E);
+    height: 100rem;
 }
 
 body {
@@ -31,7 +32,7 @@ p, input, li {
 h1 {
     font-size: 4rem;
     text-align: center;
-    text-shadow: 2px 2px 10px black;
+    /* text-shadow: 2px 2px 10px black; */
 }
 
 h2 {
@@ -51,18 +52,18 @@ p, li {
 /* || header layout */
 
 header {
-    margin-bottom: 10px;
+    /* margin-bottom: 5%; */
     display: flex;
     flex-flow: row wrap;
+    background-color: #9DCEC5;
 }
 
 body > * {
-    background-color: red;
+    /* background-color: red; */
     padding: 1%;
 }
 
 main, header, nav, article, aside, footer, section {
-    background-color: rgba(0,255,0,0.5);
     padding: 1%;
 }
 
@@ -110,6 +111,15 @@ nav a, nav span {
 
 main {
     display: flex;
+    padding-top: 10%;
+    background-color: #9DCEC5;
+
+}
+
+nav{
+    background-color: #8BAC9D;
+    border-style: groove;
+    border-color: #9DCEC5;
 }
 
 article, section {
@@ -134,5 +144,7 @@ aside img {
 }
 
 footer {
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    float: static;
+    background-color: #9DCEC5;
 }
